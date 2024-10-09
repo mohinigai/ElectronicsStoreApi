@@ -15,6 +15,7 @@ import javax.persistence.Id;
 @NoArgsConstructor
 public class Category {
     @Id
+    private String CategoryId;
     private String title;
     private String Descripation;
 }
